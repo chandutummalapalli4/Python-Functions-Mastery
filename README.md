@@ -1,16 +1,22 @@
 # 🐍 Python Functions Mastery
 
-> A structured Python learning repository where I practice and master Python functions from basic to advanced through coding exercises, mini projects, and real-world applications.
+> A structured Python learning repository where I practice and master Python functions from beginner to advanced through coding exercises, mini projects, and real-world applications.
 
 ---
 
-# 📚 Level 1 – Function Basics
+# 🎯 Repository Goal
 
-## 📖 Overview
+This repository documents my journey of learning **Python Functions** in a structured, project-based way.
 
-This level focuses on understanding the fundamentals of Python functions.
+Instead of only solving individual coding problems, I build **mini projects** after completing each major concept to strengthen my understanding and improve problem-solving skills.
 
-Topics covered include:
+---
+
+# 📚 Learning Roadmap
+
+## ✅ Level 1 – Function Basics
+
+### 📖 Topics Covered
 
 * Creating Functions
 * Calling Functions
@@ -18,30 +24,26 @@ Topics covered include:
 * Code Reusability
 * Organizing Code Using Functions
 
-The goal of this level is to understand how functions help make programs cleaner, reusable, and easier to maintain.
+---
+
+### 📂 Programs
+
+| File                           | Description                                  |
+| ------------------------------ | -------------------------------------------- |
+| `hello.py`                     | Prints a greeting using a function           |
+| `welcome.py`                   | Prints a welcome message                     |
+| `good_morning.py`              | Demonstrates calling functions repeatedly    |
+| `separator.py`                 | Uses a separator function to organize output |
+| `menu.py`                      | Displays a simple menu                       |
+| `utility_message_generator.py` | **Mini Project 1**                           |
 
 ---
 
-# 📂 Programs
-
-| File                           | Description                                                          |
-| ------------------------------ | -------------------------------------------------------------------- |
-| `hello.py`                     | Prints a greeting using a function                                   |
-| `welcome.py`                   | Prints a welcome message multiple times                              |
-| `good_morning.py`              | Demonstrates calling the same function repeatedly                    |
-| `separator.py`                 | Uses a separator function to organize output                         |
-| `menu.py`                      | Displays a simple menu using a function                              |
-| `utility_message_generator.py` | **Mini Project 1** demonstrating multiple functions working together |
-
----
-
-# 🛠 Mini Project
-
-## Utility Message Generator
+### 🛠 Mini Project 1 — Utility Message Generator
 
 A beginner-friendly project created using multiple functions.
 
-### Features
+#### Features
 
 * Welcome Message
 * Good Morning Message
@@ -50,11 +52,9 @@ A beginner-friendly project created using multiple functions.
 * Thank You Message
 * Separator Function
 
-This project demonstrates how multiple small functions can be combined to build a clean and organized program.
-
 ---
 
-# 🎯 Concepts Practiced
+### 🎯 Concepts Practiced
 
 * Function Definition
 * Function Calling
@@ -64,17 +64,105 @@ This project demonstrates how multiple small functions can be combined to build 
 
 ---
 
+## ✅ Level 2 – Parameters & Arguments
+
+### 📖 Topics Covered
+
+* Parameters
+* Arguments
+* Multiple Parameters
+* Positional Arguments
+* Keyword Arguments
+* Default Arguments
+* Function Calling Another Function
+
+---
+
+### 📂 Practice Programs
+
+This level contains multiple practice programs using different real-world scenarios instead of repetitive examples.
+
+Examples include:
+
+* Employee Information
+* Patient Records
+* Bank Account Details
+* Movie Information
+* Book Information
+* Mobile Details
+* College Information
+* Customer Profiles
+* Banking Examples
+* Hospital Examples
+
+---
+
+### 🛠 Mini Project 2 — Student Information System
+
+A modular project that displays complete student information using multiple reusable functions.
+
+#### Features
+
+* Student Profile
+* Marks Calculation
+* Percentage Calculation
+* Grade Calculation
+* Pass / Fail Result
+* Function Calling Another Function
+
+---
+
+### 🛠 Mini Project 3 — Banking Management System
+
+A real-world beginner banking application built using multiple reusable functions.
+
+#### Features
+
+* Bank Header
+* Customer Profile
+* Deposit Money
+* Withdraw Money
+* Updated Balance
+* Account Status
+* Master Function (`bank_summary()`)
+
+---
+
+### 🎯 Concepts Practiced
+
+* Parameters
+* Arguments
+* Positional Arguments
+* Keyword Arguments
+* Default Arguments
+* Modular Programming
+* Function Decomposition
+* Code Reusability
+* Real-world Function Design
+
+---
+
 # 📁 Repository Structure
 
 ```text
-01_Function_Basics/
+Python-Functions-Mastery/
+
 │
-├── hello.py
-├── welcome.py
-├── good_morning.py
-├── separator.py
-├── menu.py
-├── utility_message_generator.py
+├── Level_01_Function_Basics/
+│   ├── hello.py
+│   ├── welcome.py
+│   ├── good_morning.py
+│   ├── separator.py
+│   ├── menu.py
+│   ├── utility_message_generator.py
+│   └── README.md
+│
+├── Level_02_Parameters_Arguments/
+│   ├── Practice Programs/
+│   ├── student_information_system.py
+│   ├── banking_management_system.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -82,42 +170,67 @@ This project demonstrates how multiple small functions can be combined to build 
 
 # 🚀 Learning Progress
 
-```
+```text
 Python Functions Mastery
 
 ✅ Level 1 — Function Basics
 
-⬜ Level 2 — Parameters & Arguments
+✅ Level 2 — Parameters & Arguments
+
+    ✅ Parameters
+    ✅ Arguments
+    ✅ Multiple Parameters
+    ✅ Positional Arguments
+    ✅ Keyword Arguments
+    ✅ Default Arguments
+
+    ✅ Mini Project 2
+    ✅ Mini Project 3
 
 ⬜ Level 3 — Return Statement
 
-⬜ Level 4 — Default Arguments
+⬜ Level 4 — *args & **kwargs
 
-⬜ Level 5 — Keyword Arguments
+⬜ Level 5 — Variable Scope
 
-⬜ Level 6 — *args & **kwargs
+⬜ Level 6 — Recursion
 
-⬜ Level 7 — Scope
+⬜ Level 7 — Lambda Functions
 
-⬜ Level 8 — Recursion
+⬜ Level 8 — Higher Order Functions
 
-⬜ Level 9 — Lambda Functions
+⬜ Level 9 — Decorators
 
-⬜ Level 10 — Advanced Function Practice
+⬜ Level 10 — Advanced Function Projects
 ```
 
 ---
 
 # 🎯 What's Next?
 
-In **Level 2**, I will learn:
+The next milestone in this repository is **Level 3 – Return Statement**, where I'll learn:
 
-* Parameters
-* Arguments
-* Positional Arguments
-* Multiple Parameters
+* Returning Values
+* Returning Multiple Values
+* Nested Function Calls
+* Reusing Returned Data
+* Building More Advanced Function-Based Projects
 
-and build **Mini Project 2 – Student Information System**.
+---
+
+# 💡 Learning Approach
+
+✔ Learn one concept at a time
+
+✔ Practice multiple coding exercises
+
+✔ Build a mini project
+
+✔ Push the completed project to GitHub
+
+✔ Move to the next concept
+
+This approach helps me strengthen my Python fundamentals while creating a professional GitHub portfolio.
 
 ---
 
@@ -125,6 +238,10 @@ and build **Mini Project 2 – Student Information System**.
 
 **Chandu Tummalapalli**
 
-Aspiring Data Analyst | Python Programmer | Project-Based Learner
+🎯 Aspiring Data Analyst
 
-*"Strong fundamentals build strong programmers."*
+🐍 Python Programmer
+
+📊 Project-Based Learner
+
+> *"Strong fundamentals build strong programmers."*
