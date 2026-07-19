@@ -1,7 +1,5 @@
-def greet():
-    print("welcome to python world!")
-greet()    
-greet()    
-greet()    
-greet()    
-greet()    
+def welcome(name="Chandu"):
+    print("Hello!",name)
+    print()
+welcome()
+welcome("Pawan")
