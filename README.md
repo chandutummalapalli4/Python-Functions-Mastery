@@ -6,13 +6,15 @@
 
 # 🎯 Repository Goal
 
-This repository documents my journey of learning **Python Functions** in a structured, project-based way.
+This repository documents my journey of learning **Python Functions** through a structured, project-based approach.
 
-Instead of only solving individual coding problems, I build **mini projects** after completing each major concept to strengthen my understanding and improve problem-solving skills.
+Rather than solving only individual coding problems, I complete multiple practice programs followed by mini projects after each major concept. This helps me strengthen my programming fundamentals, improve logical thinking, and develop clean, reusable code.
 
 ---
 
 # 📚 Learning Roadmap
+
+---
 
 ## ✅ Level 1 – Function Basics
 
@@ -26,22 +28,20 @@ Instead of only solving individual coding problems, I build **mini projects** af
 
 ---
 
-### 📂 Programs
+### 📂 Practice Programs
 
-| File                           | Description                                  |
-| ------------------------------ | -------------------------------------------- |
-| `hello.py`                     | Prints a greeting using a function           |
-| `welcome.py`                   | Prints a welcome message                     |
-| `good_morning.py`              | Demonstrates calling functions repeatedly    |
-| `separator.py`                 | Uses a separator function to organize output |
-| `menu.py`                      | Displays a simple menu                       |
-| `utility_message_generator.py` | **Mini Project 1**                           |
+| File                           | Description                          |
+| ------------------------------ | ------------------------------------ |
+| `hello.py`                     | Prints a greeting using a function   |
+| `welcome.py`                   | Prints a welcome message             |
+| `good_morning.py`              | Demonstrates repeated function calls |
+| `separator.py`                 | Uses a separator function            |
+| `menu.py`                      | Displays a simple menu               |
+| `utility_message_generator.py` | **Mini Project 1**                   |
 
 ---
 
 ### 🛠 Mini Project 1 — Utility Message Generator
-
-A beginner-friendly project created using multiple functions.
 
 #### Features
 
@@ -64,7 +64,7 @@ A beginner-friendly project created using multiple functions.
 
 ---
 
-## ✅ Level 2 – Parameters & Arguments
+# ✅ Level 2 – Parameters & Arguments
 
 ### 📖 Topics Covered
 
@@ -80,26 +80,24 @@ A beginner-friendly project created using multiple functions.
 
 ### 📂 Practice Programs
 
-This level contains multiple practice programs using different real-world scenarios instead of repetitive examples.
+This level contains multiple practice programs using different real-world scenarios.
 
 Examples include:
 
 * Employee Information
 * Patient Records
 * Bank Account Details
-* Movie Information
-* Book Information
-* Mobile Details
-* College Information
 * Customer Profiles
-* Banking Examples
+* Movie Information
+* Mobile Information
+* College Information
+* Book Information
 * Hospital Examples
+* Banking Examples
 
 ---
 
 ### 🛠 Mini Project 2 — Student Information System
-
-A modular project that displays complete student information using multiple reusable functions.
 
 #### Features
 
@@ -108,13 +106,11 @@ A modular project that displays complete student information using multiple reus
 * Percentage Calculation
 * Grade Calculation
 * Pass / Fail Result
-* Function Calling Another Function
+* Function Chaining
 
 ---
 
 ### 🛠 Mini Project 3 — Banking Management System
-
-A real-world beginner banking application built using multiple reusable functions.
 
 #### Features
 
@@ -142,6 +138,89 @@ A real-world beginner banking application built using multiple reusable function
 
 ---
 
+# ✅ Level 3 – Return Statement
+
+### 📖 Topics Covered
+
+* Returning Values
+* Returning Multiple Values
+* Function Chaining
+* Nested Function Calls
+* Reusing Returned Values
+* Modular Programming
+
+---
+
+### 📂 Practice Programs
+
+Examples include:
+
+* Addition
+* Multiplication
+* Largest Number
+* Smallest Number
+* Even or Odd
+* Square of a Number
+* Cube of a Number
+* Simple Interest
+* Calculator Using Functions
+
+---
+
+### 🛠 Mini Project 4 — Employee Payroll Management System
+
+#### Features
+
+* Employee Profile
+* Salary Calculation
+* HRA Calculation
+* DA Calculation
+* Gross Salary
+* Tax Calculation
+* Net Salary
+* Employee Grade
+* Payroll Report
+
+---
+
+### 🛠 Mini Project 5 — Library Book Management System
+
+#### Features
+
+* Library Header
+* Book Details
+* Discount Calculation
+* Final Price Calculation
+* Book Category
+* Library Report
+
+---
+
+### 🛠 Mini Project 6 — Movie Ticket Booking System
+
+#### Features
+
+* Movie Ticket Header
+* Customer Details
+* Total Amount Calculation
+* Discount Calculation
+* Final Bill Calculation
+* Booking Status
+* Booking Report
+
+---
+
+### 🎯 Concepts Practiced
+
+* Return Statement
+* Returning Multiple Values
+* Function Chaining
+* Modular Programming
+* Code Reusability
+* Real-world Project Design
+
+---
+
 # 📁 Repository Structure
 
 ```text
@@ -149,11 +228,7 @@ Python-Functions-Mastery/
 
 │
 ├── Level_01_Function_Basics/
-│   ├── hello.py
-│   ├── welcome.py
-│   ├── good_morning.py
-│   ├── separator.py
-│   ├── menu.py
+│   ├── Practice Programs/
 │   ├── utility_message_generator.py
 │   └── README.md
 │
@@ -161,6 +236,13 @@ Python-Functions-Mastery/
 │   ├── Practice Programs/
 │   ├── student_information_system.py
 │   ├── banking_management_system.py
+│   └── README.md
+│
+├── Level_03_Return_Statement/
+│   ├── Practice Programs/
+│   ├── employee_payroll_management_system.py
+│   ├── library_book_management_system.py
+│   ├── movie_ticket_booking_system.py
 │   └── README.md
 │
 └── README.md
@@ -171,7 +253,7 @@ Python-Functions-Mastery/
 # 🚀 Learning Progress
 
 ```text
-Python Functions Mastery
+🐍 Python Functions Mastery
 
 ✅ Level 1 — Function Basics
 
@@ -187,7 +269,15 @@ Python Functions Mastery
     ✅ Mini Project 2
     ✅ Mini Project 3
 
-⬜ Level 3 — Return Statement
+✅ Level 3 — Return Statement
+
+    ✅ Returning Values
+    ✅ Returning Multiple Values
+    ✅ Function Chaining
+
+    ✅ Mini Project 4
+    ✅ Mini Project 5
+    ✅ Mini Project 6
 
 ⬜ Level 4 — *args & **kwargs
 
@@ -208,33 +298,32 @@ Python Functions Mastery
 
 # 🎯 What's Next?
 
-The next milestone in this repository is **Level 3 – Return Statement**, where I'll learn:
+The next milestone in this repository is **Level 4 – *args & **kwargs**.
 
-* Returning Values
-* Returning Multiple Values
-* Nested Function Calls
-* Reusing Returned Data
-* Building More Advanced Function-Based Projects
+Topics include:
+
+* Variable-Length Positional Arguments (`*args`)
+* Variable-Length Keyword Arguments (`**kwargs`)
+* Flexible Function Design
+* Advanced Function Parameters
+* Real-world Applications
+* New Function-Based Mini Projects
 
 ---
 
 # 💡 Learning Approach
 
-✔ Learn one concept at a time
+* ✅ Learn one concept at a time
+* ✅ Practice multiple coding exercises
+* ✅ Build a mini project
+* ✅ Push completed work to GitHub
+* ✅ Move to the next concept
 
-✔ Practice multiple coding exercises
-
-✔ Build a mini project
-
-✔ Push the completed project to GitHub
-
-✔ Move to the next concept
-
-This approach helps me strengthen my Python fundamentals while creating a professional GitHub portfolio.
+This approach helps me strengthen my Python fundamentals while building a professional GitHub portfolio through consistent project-based learning.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Chandu Tummalapalli**
 
@@ -244,4 +333,4 @@ This approach helps me strengthen my Python fundamentals while creating a profes
 
 📊 Project-Based Learner
 
-> *"Strong fundamentals build strong programmers."*
+> **"Strong fundamentals build strong programmers."**
