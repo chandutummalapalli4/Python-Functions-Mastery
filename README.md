@@ -8,7 +8,7 @@
 
 This repository documents my journey of learning **Python Functions** through a structured, project-based approach.
 
-Rather than solving only individual coding problems, I complete multiple practice programs followed by mini projects after each major concept. This helps me strengthen my programming fundamentals, improve logical thinking, and develop clean, reusable code.
+Instead of solving only individual coding problems, I complete multiple practice programs followed by real-world mini projects after each major concept. This approach helps me strengthen my programming fundamentals, improve logical thinking, write clean and reusable code, and build a professional GitHub portfolio.
 
 ---
 
@@ -16,7 +16,7 @@ Rather than solving only individual coding problems, I complete multiple practic
 
 ---
 
-## ✅ Level 1 – Function Basics
+# ✅ Level 1 – Function Basics
 
 ### 📖 Topics Covered
 
@@ -26,24 +26,9 @@ Rather than solving only individual coding problems, I complete multiple practic
 * Code Reusability
 * Organizing Code Using Functions
 
----
-
-### 📂 Practice Programs
-
-| File                           | Description                          |
-| ------------------------------ | ------------------------------------ |
-| `hello.py`                     | Prints a greeting using a function   |
-| `welcome.py`                   | Prints a welcome message             |
-| `good_morning.py`              | Demonstrates repeated function calls |
-| `separator.py`                 | Uses a separator function            |
-| `menu.py`                      | Displays a simple menu               |
-| `utility_message_generator.py` | **Mini Project 1**                   |
-
----
-
 ### 🛠 Mini Project 1 — Utility Message Generator
 
-#### Features
+**Features**
 
 * Welcome Message
 * Good Morning Message
@@ -52,14 +37,11 @@ Rather than solving only individual coding problems, I complete multiple practic
 * Thank You Message
 * Separator Function
 
----
-
 ### 🎯 Concepts Practiced
 
 * Function Definition
 * Function Calling
 * Code Reusability
-* Program Organization
 * Clean Function Design
 
 ---
@@ -76,65 +58,36 @@ Rather than solving only individual coding problems, I complete multiple practic
 * Default Arguments
 * Function Calling Another Function
 
----
-
-### 📂 Practice Programs
-
-This level contains multiple practice programs using different real-world scenarios.
-
-Examples include:
-
-* Employee Information
-* Patient Records
-* Bank Account Details
-* Customer Profiles
-* Movie Information
-* Mobile Information
-* College Information
-* Book Information
-* Hospital Examples
-* Banking Examples
-
----
-
 ### 🛠 Mini Project 2 — Student Information System
 
-#### Features
+**Features**
 
 * Student Profile
 * Marks Calculation
 * Percentage Calculation
 * Grade Calculation
 * Pass / Fail Result
-* Function Chaining
 
 ---
 
 ### 🛠 Mini Project 3 — Banking Management System
 
-#### Features
+**Features**
 
-* Bank Header
 * Customer Profile
 * Deposit Money
 * Withdraw Money
 * Updated Balance
 * Account Status
-* Master Function (`bank_summary()`)
-
----
+* Master Function
 
 ### 🎯 Concepts Practiced
 
-* Parameters
-* Arguments
-* Positional Arguments
-* Keyword Arguments
+* Parameters & Arguments
 * Default Arguments
+* Keyword Arguments
+* Function Chaining
 * Modular Programming
-* Function Decomposition
-* Code Reusability
-* Real-world Function Design
 
 ---
 
@@ -147,77 +100,86 @@ Examples include:
 * Function Chaining
 * Nested Function Calls
 * Reusing Returned Values
-* Modular Programming
-
----
-
-### 📂 Practice Programs
-
-Examples include:
-
-* Addition
-* Multiplication
-* Largest Number
-* Smallest Number
-* Even or Odd
-* Square of a Number
-* Cube of a Number
-* Simple Interest
-* Calculator Using Functions
 
 ---
 
 ### 🛠 Mini Project 4 — Employee Payroll Management System
 
-#### Features
+**Features**
 
 * Employee Profile
 * Salary Calculation
-* HRA Calculation
-* DA Calculation
+* HRA & DA
 * Gross Salary
 * Tax Calculation
 * Net Salary
 * Employee Grade
-* Payroll Report
 
 ---
 
 ### 🛠 Mini Project 5 — Library Book Management System
 
-#### Features
+**Features**
 
-* Library Header
 * Book Details
 * Discount Calculation
-* Final Price Calculation
+* Final Price
 * Book Category
-* Library Report
 
 ---
 
 ### 🛠 Mini Project 6 — Movie Ticket Booking System
 
-#### Features
+**Features**
 
-* Movie Ticket Header
-* Customer Details
-* Total Amount Calculation
-* Discount Calculation
-* Final Bill Calculation
+* Ticket Booking
+* Total Amount
+* Discount
+* Final Bill
 * Booking Status
-* Booking Report
-
----
 
 ### 🎯 Concepts Practiced
 
 * Return Statement
-* Returning Multiple Values
+* Multiple Return Values
 * Function Chaining
 * Modular Programming
-* Code Reusability
-* Real-world Project Design
+
+---
+
+# ✅ Level 4 – Variable Length Arguments (*args)
+
+### 📖 Topics Covered
+
+* Introduction to `*args`
+* Accepting Multiple Values
+* Iterating Through Arguments
+* Counting Arguments
+* Finding Largest & Smallest Values
+* Calculating Totals
+* Flexible Function Design
+
+### 🛠 Mini Project 7 — Student Marks Analyzer
+
+**Features**
+
+* Student Details
+* Unlimited Subject Marks using `*args`
+* Total Marks
+* Subject Count
+* Average Calculation
+* Highest Mark
+* Lowest Mark
+* Grade Calculation
+* Complete Student Report
+
+### 🎯 Concepts Practiced
+
+* Variable-Length Positional Arguments (`*args`)
+* Manual Calculations
+* Loops
+* Conditional Statements
+* Real-world Function Design
 
 ---
 
@@ -228,22 +190,12 @@ Python-Functions-Mastery/
 
 │
 ├── Level_01_Function_Basics/
-│   ├── Practice Programs/
-│   ├── utility_message_generator.py
-│   └── README.md
 │
 ├── Level_02_Parameters_Arguments/
-│   ├── Practice Programs/
-│   ├── student_information_system.py
-│   ├── banking_management_system.py
-│   └── README.md
 │
 ├── Level_03_Return_Statement/
-│   ├── Practice Programs/
-│   ├── employee_payroll_management_system.py
-│   ├── library_book_management_system.py
-│   ├── movie_ticket_booking_system.py
-│   └── README.md
+│
+├── Level_04_args/
 │
 └── README.md
 ```
@@ -259,55 +211,39 @@ Python-Functions-Mastery/
 
 ✅ Level 2 — Parameters & Arguments
 
-    ✅ Parameters
-    ✅ Arguments
-    ✅ Multiple Parameters
-    ✅ Positional Arguments
-    ✅ Keyword Arguments
-    ✅ Default Arguments
-
-    ✅ Mini Project 2
-    ✅ Mini Project 3
-
 ✅ Level 3 — Return Statement
 
-    ✅ Returning Values
-    ✅ Returning Multiple Values
-    ✅ Function Chaining
+✅ Level 4 — *args
 
-    ✅ Mini Project 4
-    ✅ Mini Project 5
-    ✅ Mini Project 6
+⬜ Level 5 — **kwargs
 
-⬜ Level 4 — *args & **kwargs
+⬜ Level 6 — Variable Scope
 
-⬜ Level 5 — Variable Scope
+⬜ Level 7 — Recursion
 
-⬜ Level 6 — Recursion
+⬜ Level 8 — Lambda Functions
 
-⬜ Level 7 — Lambda Functions
+⬜ Level 9 — Higher Order Functions
 
-⬜ Level 8 — Higher Order Functions
+⬜ Level 10 — Decorators
 
-⬜ Level 9 — Decorators
-
-⬜ Level 10 — Advanced Function Projects
+⬜ Level 11 — Advanced Function Projects
 ```
 
 ---
 
 # 🎯 What's Next?
 
-The next milestone in this repository is **Level 4 – *args & **kwargs**.
+The next milestone is **Level 5 – `**kwargs` (Variable-Length Keyword Arguments)**.
 
-Topics include:
+Upcoming topics include:
 
-* Variable-Length Positional Arguments (`*args`)
-* Variable-Length Keyword Arguments (`**kwargs`)
-* Flexible Function Design
-* Advanced Function Parameters
-* Real-world Applications
-* New Function-Based Mini Projects
+* Understanding `**kwargs`
+* Dictionary-based Arguments
+* Flexible Function Parameters
+* Combining `*args` and `**kwargs`
+* Real-world Examples
+* Mini Project using `**kwargs`
 
 ---
 
@@ -316,10 +252,10 @@ Topics include:
 * ✅ Learn one concept at a time
 * ✅ Practice multiple coding exercises
 * ✅ Build a mini project
-* ✅ Push completed work to GitHub
+* ✅ Push the completed work to GitHub
 * ✅ Move to the next concept
 
-This approach helps me strengthen my Python fundamentals while building a professional GitHub portfolio through consistent project-based learning.
+This project-based roadmap helps me build strong Python fundamentals while creating a portfolio of practical programs and mini projects.
 
 ---
 
@@ -328,9 +264,7 @@ This approach helps me strengthen my Python fundamentals while building a profes
 **Chandu Tummalapalli**
 
 🎯 Aspiring Data Analyst
-
 🐍 Python Programmer
-
 📊 Project-Based Learner
 
 > **"Strong fundamentals build strong programmers."**
