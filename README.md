@@ -193,7 +193,7 @@ Instead of solving only individual coding problems, I complete multiple practice
 * Real-world Function Design
 
 ---
-
+```
 Python-Functions-Mastery/
 
 │
@@ -207,7 +207,6 @@ Python-Functions-Mastery/
 │
 └── README.md
 ```
-
 ---
 
 🐍 Python Functions Mastery
